@@ -7,7 +7,7 @@ function getInputs()
      dimension3 = parseInt(document.getElementById("dimension3").value);
      triangle(dimension1,dimension2,dimension3);
 }
-document.addEventListener("click",getInputs);
+document.getElementById("results").addEventListener("click",getInputs);
 
 function triangle(dimension1,dimension2,dimension3)
 {
