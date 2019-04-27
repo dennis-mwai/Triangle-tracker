@@ -10,27 +10,55 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
-<div class="container">
-    <form autocomplete="off" class="form" id="myAnchor" onsubmit=getInputs(); event.preventDefault()>
-        <label for="dimension1">Enter the first dimension:</label>
-        <input required name="dimension1" placeholder="dimension 1" id="dimension1">
-        <label for="dimension2">Enter the second dimension:</label>
-        <input required name="dimension2" placeholder="dimension 2" id="dimension2">
-        <label for="dimension3">Enter the third dimension:</label>
-        <input required name="dimension3" placeholder="dimension 3" id="dimension3">
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-info">
+                <div class=panel-heading>
+                    <h2 class="panel-title">Enter dimensions here:</h2>
+                </div>    
+                    <div class="jumbotron">
+                        <p> Test whether your dimensions forms a triangle. <br> If they form a triangle, <br> This application will tell you the type of triangle they form. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!--add a button-->
-        <button id="resuls" type="submit">Results</button>     
-    </form>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Dimension Checker</h2>
+                            <form autocomplete="off" class="form" id="myAnchor" onsubmit=getInputs(); event.preventDefault()>
+                                <label for="dimension1">Enter the first dimension:</label>
+                                <input required name="dimension1" placeholder="dimension 1" id="dimension1">
+                                <label for="dimension2">Enter the second dimension:</label>
+                                <input required name="dimension2" placeholder="dimension 2" id="dimension2">
+                                <label for="dimension3">Enter the third dimension:</label>
+                                <input required name="dimension3" placeholder="dimension 3" id="dimension3">
 
-    <script src="js/scripts.js"></script>
-    
-    <p class="results"></p>
+                                <!--add a button-->
+                                <button id="resuls" type="submit">Results</button>     
+                            </form>
+                    </div>
+                </div>
+            </div>
 
-    <ul id="history">
+                       <script src="js/scripts.js"></script>
 
-    </ul>
-</div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="results"></p>
+                        <h2 class="bg-success"> Results History: </h2>
+
+                        <ul id="history">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
