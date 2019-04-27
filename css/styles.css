@@ -1,8 +1,8 @@
 .jumbotron{
-    background-image: url('https://barndoor.space/wp-content/uploads/2018/03/Barn-Door-Tracker-Triangle1.png');
-    background-size: 200px 200px;
+    background-image: url('https://blog.udemy.com/wp-content/uploads/2014/05/scalene1.png');
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    align-content: center;
 }
 
 .jumbotron p{
