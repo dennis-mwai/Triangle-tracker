@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Triangle Tracker</title>
-        <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Triangle Track- - -er</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
-    <form class="form">
+    <form autocomplete="off" class="form" id="myAnchor" onsubmit=getInputs(); event.preventDefault()>
         <label for="dimension1">Enter the first dimension:</label>
-        <input type="number" name="dimension1" placeholder="dimension 1" id="dimension1">
+        <input required name="dimension1" placeholder="dimension 1" id="dimension1">
         <label for="dimension2">Enter the second dimension:</label>
-        <input type="number" name="dimension2" placeholder="dimension 2" id="dimension2">
+        <input required name="dimension2" placeholder="dimension 2" id="dimension2">
         <label for="dimension3">Enter the third dimension:</label>
-        <input type="number" name="dimension3" placeholder="dimension 3" id="dimension3">
+        <input required name="dimension3" placeholder="dimension 3" id="dimension3">
 
         <!--add a button-->
-        <button id="resuls" type="button" onclick = "getInputs()" >Results</button>     
+        <button id="resuls" type="submit">Results</button>     
     </form>
 
     <script src="js/scripts.js"></script>
     
     <p class="results"></p>
+
+    <ul id="history">
+
+    </ul>
+    
 </body>
 </html>
