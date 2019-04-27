@@ -11,7 +11,7 @@ var dimension1,dimension2,dimension3;
 
 var lengths = [];
 function writeToDocument(){
-    for (var i = 0; i<lengths.length; i++ ){
+    for (var i = 0; i<lengths.length; i++ ) {
         var node = document.createElement('Li');
         // appending the dictionary item containing history to html.
         var textnode = document.createTextNode('a : '+lengths[i]['dimension 1']+' - b : '+lengths[i]['dimension 2']+' - c : '+lengths[i]['dimension 3']+'\n      '+lengths[i]['comments']);
@@ -53,38 +53,33 @@ function getInputs(){
 
 
 
-document.getElementById("myAnchor").addEventListener("submit", function(event){
-    event.preventDefault()
+   document.getElementById("myAnchor").addEventListener("submit", function(event){
+   event.preventDefault()
 });
  
 // document.getElementById("results").addEventListener("click",getInputs);
 
-function triangle(dimension1,dimension2,dimension3)
-{
+function triangle(dimension1,dimension2,dimension3) {
     if (dimension1 + dimension2 > dimension3 && dimension1 + dimension3 > dimension2 && dimension2 + dimension3 > dimension1)
     {
-        if (dimension1 === dimension2 && dimension3 === dimension1) 
-        {
-            var x = document.getElementsByClassName("results");
-            x[0].innerHTML = "This is an <span style = 'color:brown'>Equilateral</span> triangle";
+        if (dimension1 === dimension2 && dimension3 === dimension1) {
+            var display = document.getElementsByClassName("results");
+            display[0].innerHTML = "This is an <span style = 'color:brown'>Equilateral</span> triangle";
             return "This is an Equilateral triangle";
         }
-        else if (dimension1 === dimension2 || dimension1 === dimension3 || dimension2 === dimension3)
-        {
-            var x = document.getElementsByClassName("results");
-            x[0].innerHTML = "This is an <span style = 'color:brown'>Isosceles</span> triangle";
+        else if (dimension1 === dimension2 || dimension1 === dimension3 || dimension2 === dimension3) {
+            var display = document.getElementsByClassName("results");
+            display[0].innerHTML = "This is an <span style = 'color:brown'>Isosceles</span> triangle";
             return "This is an Isosceles triangle";
         }
         
-        else
-        {
+        else {
             var x = document.getElementsByClassName("results");
             x[0].innerHTML = "This is an <span style = 'color:brown'>Scalene</span> triangle";
             return "This is a Scalene triangle";
         }
     }
-    else
-    {
+    else {
         var x = document.getElementsByClassName("results");
         x[0].innerHTML = "The dimensions you have entered do not form a triangle! Enter new dimensions";
         return "The dimensions you have entered do not form a triangle! Enter new dimensions"
