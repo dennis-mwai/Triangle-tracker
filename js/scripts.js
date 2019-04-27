@@ -66,18 +66,18 @@ function triangle(dimension1,dimension2,dimension3) {
         if (dimension1 === dimension2 && dimension3 === dimension1) {
             var display = document.getElementsByClassName("results");
             display[0].innerHTML = "This is an <span style = 'color:brown'>Equilateral</span> triangle";
-            return "This is an Equilateral triangle";
+            return "is an Equilateral triangle";
         }
         else if (dimension1 === dimension2 || dimension1 === dimension3 || dimension2 === dimension3) {
             var display = document.getElementsByClassName("results");
             display[0].innerHTML = "This is an <span style = 'color:brown'>Isosceles</span> triangle";
-            return "This is an Isosceles triangle";
+            return "is an Isosceles triangle";
         }
         
         else {
             var x = document.getElementsByClassName("results");
             x[0].innerHTML = "This is an <span style = 'color:brown'>Scalene</span> triangle";
-            return "This is a Scalene triangle";
+            return "is a Scalene triangle";
         }
     }
     else {
