@@ -63,7 +63,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 
 ## Link to live site
 
-Find the tracker (<https://dennis-mwai.github.io/Triangle-tracker/)>)
+Find the tracker (<https://dennis-mwai.github.io/Triangle-tracker)>)
 
 ## Technologies used
 
