@@ -1,3 +1,5 @@
+
+
 .jumbotron{
     background-image: url("http://s1.thingpic.com/images/DZ/orHrHkEaJPkB3nXaxQaqgMbp.png");
     background-position: center;
@@ -21,3 +23,43 @@ body, html {
     background-repeat: no-repeat;
 }
 
+.scrollbar
+{
+    float: none;
+	background: #F5F5F5;
+	overflow-y: scroll;
+    margin-bottom: 25px;
+    margin-right: 0%;
+    height: 300px;
+    width: 300px;
+
+    display: inline-block;
+}
+
+.force-overflow
+{
+	min-height: 10px;
+}
+
+#style-14::-webkit-scrollbar-track
+{
+	-webkit-box-align: inset 0 0 6px rgba(0,0,0,0.6);
+	background-color: #CCCCCC;
+}
+
+#style-14::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-14::-webkit-scrollbar-thumb
+{
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, 1) 0%,
+											  rgba(0, 0, 0, 1) 25%,
+											  transparent 100%,
+											  rgba(0, 0, 0, 1) 75%,
+											  transparent)
+}
