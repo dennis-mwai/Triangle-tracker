@@ -14,7 +14,7 @@ Dennis Mwai
 
 To use this tracker do the following:
 
-1. go to [git hub] (<https://github.com/dennis-mwai/Triangle-tracker.git)>
+1. go to [git hub](<https://github.com/dennis-mwai/Triangle-tracker.git>>
 2. cd Trangle-tracker
 3. code .
 
@@ -49,7 +49,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 
 ## Link to live site
 
-Find the tracker [here] (<https://dennis-mwai.github.io/Triangle-tracker/)>
+Find the tracker [here](<https://dennis-mwai.github.io/Triangle-tracker/)>
 
 ## Technologies used
 
