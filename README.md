@@ -21,6 +21,19 @@ To use this tracker do the following:
 
 ## Behaviour Driven Development
 
+Enter first dimension
+Input Example: first dimendion 7
+Output Example: 7
+
+Enter second dimension
+Input Example: second dimendion 3
+Output Example: 3
+
+Enter third dimension
+Input Example: third dimendion 8
+Output Example: 8
+
+The program should return this when the dimensions entered do not form a triangle:
 Input Example: first dimension = 5, second dimension = 5, third dimension = 50
 
 Output Example: The dimensions you have entered do not form a triangle! Enter new dimensions
