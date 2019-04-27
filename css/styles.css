@@ -1,0 +1,21 @@
+.jumbotron{
+    background-image: url('https://barndoor.space/wp-content/uploads/2018/03/Barn-Door-Tracker-Triangle1.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+.jumbotron p{
+    color: blue;
+    font-size: 30px;
+}
+
+/* add immage to body, style image to fit body */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("https://i0.wp.com/proofsfromthebook.com/wp-content/uploads/2013/06/triangle-ABC.png?resize=335%2C198");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
