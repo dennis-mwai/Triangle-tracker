@@ -14,7 +14,8 @@ Dennis Mwai
 
 To use this tracker do the following:
 
-1. go to (<https://github.com/dennis-mwai/Triangle-tracker.git>>
+1. go to (<https://github.com/dennis-mwai/Triangle-tracker.git>)
+
 2. cd Trangle-tracker
 3. code .
 

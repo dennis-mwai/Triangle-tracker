@@ -14,13 +14,15 @@
 }
 
 /* add immage to body, style image to fit body */
-body, html {
+body {
     height: 100%;
     margin: 0;
     background-image: url("https://pbs.twimg.com/media/C2inHpJXgAAe0Du.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+
 }
 
 .scrollbar
@@ -29,9 +31,9 @@ body, html {
 	background: #F5F5F5;
 	overflow-y: scroll;
     margin-bottom: 25px;
-    margin-right: 0%;
-    height: 300px;
-    width: 300px;
+    margin-right: 0px;
+    height: 100px;
+    width: 500px;
 
     display: inline-block;
 }
