@@ -1,13 +1,13 @@
 .jumbotron{
-    background-image: url('https://blog.udemy.com/wp-content/uploads/2014/05/scalene1.png');
+    background-image: url("http://s1.thingpic.com/images/DZ/orHrHkEaJPkB3nXaxQaqgMbp.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .jumbotron .dl-horizontal{
-    color: blue;
-    font-size: 30px;
+    color:blueviolet;
+    font-size: 40px;
     
 }
 
@@ -15,7 +15,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-image: url("https://i0.wp.com/proofsfromthebook.com/wp-content/uploads/2013/06/triangle-ABC.png?resize=335%2C198");
+    background-image: url("https://pbs.twimg.com/media/C2inHpJXgAAe0Du.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

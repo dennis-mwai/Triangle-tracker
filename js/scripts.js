@@ -40,6 +40,7 @@ function getInputs(){
     // removes all history and readys the history section for writting.
     while (writeTo.firstChild) {
         writeTo.removeChild(writeTo.firstChild);
+
     }
 
     // writes your typing history to the webpage.
