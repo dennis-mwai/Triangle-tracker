@@ -36,11 +36,7 @@ function getInputs(){
 
     // writes your typing history to the webpage.
     writeToDocument();
-
-
 }
-
-
 
    document.getElementById("myAnchor").addEventListener("submit", function(event){
    event.preventDefault()
