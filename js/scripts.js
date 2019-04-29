@@ -1,14 +1,5 @@
 var dimension1,dimension2,dimension3;
 
-// class History{
-//     constructor(dim1,dim2,dim3){
-//         this.dimen1 = dim1;
-//         this.dimen2 = dim2;
-//         this.dimen3 = dim3;
-//     }
-// }
-
-
 var lengths = [];
 function writeToDocument(){
     for (var i = 0; i<lengths.length; i++ ) {
@@ -46,10 +37,7 @@ function getInputs(){
     // writes your typing history to the webpage.
     writeToDocument();
 
-//  var currentData = new History(dimension1,dimension2,dimension3);
-//  calcHistory.push(currentData);
-//  console.log(currentData);
-//  console.log(calcHistory);
+
 }
 
 
@@ -87,3 +75,24 @@ function triangle(dimension1,dimension2,dimension3) {
     }
 
 }
+
+
+
+
+
+
+
+
+// To read more about 
+// class History{
+//     constructor(dim1,dim2,dim3){
+//         this.dimen1 = dim1;
+//         this.dimen2 = dim2;
+//         this.dimen3 = dim3;
+//     }
+// }
+
+//  var currentData = new History(dimension1,dimension2,dimension3);
+//  calcHistory.push(currentData);
+//  console.log(currentData);
+//  console.log(calcHistory);
