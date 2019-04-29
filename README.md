@@ -21,40 +21,16 @@ To use this tracker do the following:
 
 ## Behaviour Driven Development
 
-|: Behaviour| Input :| Output:|
-|-----------------------------|
-|: Enter first dimension |: first dimendion 7| 7:|
-|: Enter second dimension |: second dimendion 3| 3:|
-
-Enter third dimension
-
-Input Example: third dimendion 8
-
-Output Example: 8
-
-The program should return this when the dimensions entered do not form a triangle:
-Input Example: first dimension = 5, second dimension = 5, third dimension = 50
-
-Output Example: The dimensions you have entered do not form a triangle! Enter new dimensions
-
-The program should return this when all dimensions are equal:
-Input Example: first dimension = 10, second dimension = 10, third dimension = 10
-
-Output Example: This is an Equilateral triangle
-
-The program should return this when at most two dimensions are equal:
-Input Example: first dimension = 46, second dimension = 46, third dimension = 50
-
-Output Example: This is an Isosceles triangle
-
-The program should return this when all dimension are not equal:
-Input Example: first dimension = 14, second dimension = 15, third dimension = 16
-
-Output Example: This is an Scalene triangle
-
-The program should return this when you enter strings:
-Input Example: first dimension = 6io, second dimension = 15, third dimension = 16
-Output Example: The dimensions you have entered do not form a triangle! Enter new dimensions
+|   Behaviour|   Input|  Output |
+|---    |---    |---    |
+|   Enter first dimension    |   first dimendion 7    |    7   |
+|    Enter second dimension    |    second dimendion 3   |    3   |
+|  Enter third dimension     |    third dimendion 8   |     8  |
+|  The program should return this when the dimensions entered do not form a triangle:     |    first dimension = 5, second dimension = 5, third dimension = 50   |   The dimensions you have entered do not form a triangle! Enter new dimensions    |
+|   The program should return this when all dimensions are equal:    |    first dimension = 10, second dimension = 10, third dimension = 10   |    This is an Equilateral triangle   |
+|  The program should return this when at most two dimensions are equal:     |    first dimension = 46, second dimension = 46, third dimension = 50   |  This is an Isosceles triangle     |
+|    The program should return this when all dimension are not equal:   |    first dimension = 14, second dimension = 15, third dimension = 16   |    This is an Scalene triangle   |
+|   The program should return this when you enter strings:    |first dimension = 6io, second dimension = 15, third dimension = 16|    The dimensions you have entered do not form a triangle! Enter new dimensions   |
 
 ## LICENSE
 
@@ -77,4 +53,4 @@ email: dennis.mwai55@gmail.com
 
 ## The interface you will interact with
 
-! [image] (images/interface.jpg)
+![image](interface.jpg)
