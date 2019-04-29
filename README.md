@@ -21,16 +21,15 @@ To use this tracker do the following:
 
 ## Behaviour Driven Development
 
-Enter first dimension
-Input Example: first dimendion 7
-Output Example: 7
-
-Enter second dimension
-Input Example: second dimendion 3
-Output Example: 3
+|: Behaviour| Input :| Output:|
+|-----------------------------|
+|: Enter first dimension |: first dimendion 7| 7:|
+|: Enter second dimension |: second dimendion 3| 3:|
 
 Enter third dimension
+
 Input Example: third dimendion 8
+
 Output Example: 8
 
 The program should return this when the dimensions entered do not form a triangle:
@@ -75,3 +74,7 @@ Find the tracker (<https://dennis-mwai.github.io/Triangle-tracker>)
 ## Contact information
 
 email: dennis.mwai55@gmail.com
+
+## The interface you will interact with
+
+! [image] (images/interface.jpg)
