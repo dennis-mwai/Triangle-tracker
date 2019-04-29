@@ -59,14 +59,14 @@ function triangle(dimension1,dimension2,dimension3) {
         }
         
         else {
-            var x = document.getElementsByClassName("results");
-            x[0].innerHTML = "This is an <span style = 'color:brown'>Scalene</span> triangle";
+            var display = document.getElementsByClassName("results");
+            display[0].innerHTML = "This is an <span style = 'color:brown'>Scalene</span> triangle";
             return "is a Scalene triangle";
         }
     }
     else {
-        var x = document.getElementsByClassName("results");
-        x[0].innerHTML = "The dimensions you have entered do not form a triangle! Enter new dimensions";
+        var display = document.getElementsByClassName("results");
+        display[0].innerHTML = "The dimensions you have entered do not form a triangle! Enter new dimensions";
         return "The dimensions you have entered do not form a triangle! Enter new dimensions"
     }
 
